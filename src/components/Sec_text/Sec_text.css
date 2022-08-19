@@ -1,0 +1,13 @@
+.Sec_mainbg{
+    background-color: #CCC5BA;
+    color: #212123;
+    padding: 50px 0px;
+}
+.sec_para{
+    line-height: 1.8;
+    letter-spacing: 1.5;
+    font-weight: 400;
+}
+.Sec_btm{
+ color:    #006A74;
+}

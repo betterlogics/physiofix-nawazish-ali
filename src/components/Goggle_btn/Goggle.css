@@ -1,0 +1,14 @@
+.btn_g{
+    background-color:  #34CACB !important;
+
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+}
+
+
+.btn_g:hover{
+    background-color: rgb(255,206,236) !important;
+}
