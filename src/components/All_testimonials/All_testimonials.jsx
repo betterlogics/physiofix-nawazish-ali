@@ -6,14 +6,17 @@ function All_testimonials() {
     <div>
       <div className="Main_bg">
         <div className="container">
-          <div className="row ">
-            <div className="overlay ">
-                <div className="text_fi ">
-              <h1 className="Test_head">Testimonials</h1>
-              <p className="text-white test_para">CLIENT LOVE</p>
+          <div className="row">
+            
+              <div className="over">
+              <div className="col-lg-4 margf">
+                <h3 className="TER_head">TESTIMONIALS</h3>
+                <p className="TER_para">CLINT LOVE</p>
               </div>
+
             </div>
           </div>
+
         </div>
       </div>
     </div>

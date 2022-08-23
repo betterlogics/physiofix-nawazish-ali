@@ -47,3 +47,84 @@ line-height: 1rem;
     color: #34CACB;
     font-weight: 700;
 }
+
+
+/* media qurey starts here  */
+@media only screen and (max-width:700px){
+    .icons{
+        display: flex;
+        justify-content: center;
+    padding-left: 0px !important;
+    }
+    .icp{
+        padding: 5px;
+    }
+    .fimg {
+        width: 80%;
+        margin-top: 20%;
+        margin-bottom: 20px;
+    }
+
+    .online_btn {
+        margin-bottom: 5px !important;
+    }
+    .hh_a1 {
+        margin-top: 5px !important;
+    }
+
+
+}
+
+
+
+@media (min-width:701px) and (max-width:900px)
+{
+    .icons{
+        display: flex;
+        justify-content: center;
+    padding-left: 0px !important;
+    margin-left: 10px;
+    }
+    .icp{
+        padding: 5px;
+    }
+    .fimg{
+        width: 50%;
+        margin: 20px 0px;
+    } 
+    .online_btn{
+        margin-top: 10px;
+    }
+    .btn_g{
+        margin-top: 5px;
+    }
+    .sm_ms{
+        margin-top: 10px;
+    }
+    .card_pics {
+        border: none;
+        height: 194.9px;
+    }
+}
+@media (min-width:901px) and (max-width:1100px){
+
+    .sm_h{
+        margin-top: 10px !important;
+    }
+    .Input_in{
+        padding: 0px !important;
+    }
+}
+
+
+@media (min-width:1420px) and (max-width:2490px){
+    
+    .abouit_bg {
+       margin-top: 15% !important;
+    }
+    .card_pics {
+        border: none;
+        height: 191.9px;
+    }
+
+}

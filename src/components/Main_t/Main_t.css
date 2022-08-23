@@ -1,0 +1,16 @@
+.main_testh{
+    background-color: white ;
+    padding: 30px 0px;
+}
+.hh_a1{
+    background-color: #34cacb;
+    color:white;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.hh_a1:hover{
+    background-color: #006a74;
+    color:black;
+
+}

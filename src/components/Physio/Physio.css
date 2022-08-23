@@ -1,0 +1,31 @@
+.main_pbg{
+    background-color: #ccccca;
+    padding: 50px 0px !important;
+}
+
+.ph_bg{
+    background-color: white;
+}
+.phy_img{
+    width: 100%;
+}
+
+.pgy_ch{
+    margin-top: 10px;
+    color:#006a74!important;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.pgy_p{
+    font-size: 16px;
+    font-weight:500;
+    color: #212123;
+
+}
+.Phy_btn{
+    background-color: #0ebfcf;
+    border-radius:20px ;
+    font-weight: 700;
+    
+}

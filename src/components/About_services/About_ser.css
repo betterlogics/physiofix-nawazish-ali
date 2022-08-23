@@ -1,0 +1,38 @@
+.Abot_serbg{
+    background-color: white;
+    padding: 30px 0px;
+}
+
+.AB_ch{
+    color: #006A74;
+    font-size: 22px !important;
+}
+.ab_card_bg{
+    background-color: #F3f3f2;
+}
+
+.ab_btn{
+    background-color: #27aab6;
+    display: flex;
+    justify-content: left;
+    border-radius: 15px !important;
+    color: black;
+    font-weight:700 ;
+}
+
+.ab_btn:hover{
+    background-color:  #006A74;
+    color: white;
+}
+.absi{
+    width: 100%;
+    height: 100%;
+}
+
+/* media quries starts here  */
+@media only screen and (max-width:700px)
+{
+    .marr{
+        margin-top: 10px !important;
+    }
+}

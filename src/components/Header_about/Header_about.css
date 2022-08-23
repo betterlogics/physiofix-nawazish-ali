@@ -1,0 +1,23 @@
+.Header_aboutbg{
+    background-image: url(../Assets/about.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.abouit_bg{
+    padding-left: 40px;
+    margin-top: 30%;
+}
+
+
+/* media qureies starts from here */
+@media only screen and (max-width:700px)
+{
+    .abouit_bg{
+        padding-left: 0px !important    ;
+    }
+    .sm_p{
+        padding-left: 0px !important    ;
+    }
+}

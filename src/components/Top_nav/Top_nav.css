@@ -1,0 +1,26 @@
+.Top_nav{
+    background-color: #32cacb;
+    padding: 10px 0px;
+}
+.tp_r{
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+}
+.nav_icons{
+    color: #175e5e;
+    text-align: left !important;
+    margin-left: 5px !important;
+    font-size: 20px;
+}
+.nav_p{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.NAv_in{
+    border: 0px;
+    outline: none;
+    border-radius: 15px;
+    padding-left: 20px;
+}

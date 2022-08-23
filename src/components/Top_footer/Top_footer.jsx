@@ -16,7 +16,7 @@ function Top_footer() {
                 </p>
                 <button className='btn footer_btn'>Book <br />APPoinment</button>
                 <div className="icons">
-               <a className='text-white' href=""><AiOutlineInstagram></AiOutlineInstagram> </a>  <a className='text-white' href=""> <SiFacebook></SiFacebook></a>  <a className='text-white' href=""><FaYoutube></FaYoutube></a>
+               <a className='text-white icp' href=""><AiOutlineInstagram></AiOutlineInstagram> </a>  <a className='text-white icp' href=""> <SiFacebook></SiFacebook></a>  <a className='text-white icp' href=""><FaYoutube ></FaYoutube></a>
                 </div>
             </div>
             <div className="col-lg-2">

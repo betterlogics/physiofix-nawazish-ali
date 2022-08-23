@@ -1,0 +1,32 @@
+.Mb_mainbg{
+    background-color: white;
+    padding: 40px 0px;
+
+}
+
+.cl_mb{
+    margin-left: 10px !important ;
+    margin-top: 10%!important;
+}
+ .mb_row{
+    display: flex !important;
+    justify-content: space-between !important;
+ }
+ .mb_img{
+    width: 100%;
+ }
+
+ .Hhh1_btn{
+    background-color: #34cacb;
+    width: 100%;
+    border-radius: 15px;
+    color:white;
+    font-weight: 700;
+    border: none;
+    padding: 10px 0px;
+
+}
+.Hhh1_btn:hover{
+    background-color: #006a74;
+    color: black;
+}

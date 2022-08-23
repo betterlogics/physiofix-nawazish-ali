@@ -1,0 +1,16 @@
+.online_btn{
+    width: 100%;
+    background-color: #34cacb;
+    color: white;
+    font-weight: 700;
+    border: 1px solid black;
+    border-collapse: collapse;
+text-transform: uppercase;
+}
+.ca{
+    background-color: #006a74;
+}
+.online_btn:hover{
+    background-color: grey;
+color: #212123;
+}

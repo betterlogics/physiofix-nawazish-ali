@@ -1,0 +1,23 @@
+.Hh_bg{
+    background-image: url(../Assets/homebg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+.hh_mr{
+    margin-top: 20%;
+}
+
+
+
+/* media qurey starts here  */
+
+@media only screen and (max-width:700px){
+
+    .hh_mr{
+
+        margin-top: 20%!important;
+    }
+
+}

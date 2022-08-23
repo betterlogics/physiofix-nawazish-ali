@@ -1,0 +1,21 @@
+.Ca_main{
+    background-color: #ccc5ba;
+    padding: 50px 0px;
+    border-top:1px solid  ;
+    border-bottom:1px solid  ;
+    margin-bottom: 5px;
+}
+.cus_s{
+    color:white;
+      font-weight: 700;
+      font-size: 18px;
+    border-bottom: 1px solid white;
+    
+}
+.cad{
+    text-decoration: none;
+}
+.cus_s:hover{
+color: #32cacb;
+border-bottom: 1px solid #34cacb;
+}

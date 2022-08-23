@@ -20,9 +20,9 @@ function Main_test() {
       <First_test/>
       <Sec_text/>
       <Pics_box/> 
-      <Input/>
-      <Top_footer/>
-      <Sub_footer/>
+     
+     
+  
     </div>
   )
 }

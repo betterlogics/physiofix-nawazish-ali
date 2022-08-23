@@ -1,0 +1,30 @@
+.VA_main{
+    background-color: white;
+    padding: 40px 0px;
+}
+.Va_img{
+    width: 100%;
+}
+.VA_h{
+    font-size: 34px;
+    color: black;
+    font-weight: 700;
+    text-align: left;
+}
+.va_btn{
+    background-color: #34cacb;
+    color: #212123;
+    font-weight:700 ;
+    display: flex;
+justify-content: left;
+
+}
+
+.va_btn:hover{
+    background-color: #006a74;
+    color: white;
+}
+.img_h{
+   color: #006a74;
+   margin-top: 10px;
+}

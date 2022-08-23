@@ -1,0 +1,31 @@
+.Hh_btn{
+    width: 100%;
+    background-color: #006a74;
+    color:white;
+    font-weight: 700;
+}
+.Hh_btn1{
+    width: 100%;
+    font-weight: 700;
+    color:white;
+    background-color: #34cacb;
+}
+.Hh_btn:hover{
+    background-color: grey;
+    color:black;
+}
+.Hh_btn1:hover{
+    background-color: grey;
+    color: black;
+}
+
+
+
+
+/* media qurey starts here  */
+
+@media only screen and (max-width:700px){
+    .Hh_btn1{
+        margin-top: 5px !important;
+    }
+}

@@ -25,7 +25,7 @@ function Boxes() {
 
                 
                                 </div>
-                <div className="col-lg-5">
+                <div className="col-lg-5 FR_sm">
                     <div className="card card_bg bg1">
                         <div className="card-body">
                             <p className='left'>
