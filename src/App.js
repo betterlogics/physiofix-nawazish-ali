@@ -19,6 +19,7 @@ import Top_footer from './components/Top_footer/Top_footer';
 import Sub_footer from './components/Sub_footer/Sub_footer';
 import Main_online from './components/Main_online/Main_online';
 import Login from './components/Login/Login';
+import Submit from './components/Submit/Submit';
 
 
 
@@ -38,6 +39,7 @@ function App() {
         <Route exact path='/signup' element ={<Sign_up/>}/>
         <Route exact path='/online' element ={<Main_online/>}/>
         <Route exact path='/login' element ={<Login/>}/>
+        <Route exact path='/submit' element ={<Submit/>}/>
         </Routes>
         <Input/>
         <Top_footer/>

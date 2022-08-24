@@ -1,0 +1,80 @@
+.Main_submit{
+
+    background-color: #006a74;
+    /* padding: 30px 0px; */
+        padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10%; */
+
+}
+
+.TExt_a{
+    box-shadow: var(--boxShadow3);
+    border: none;
+    margin-top: 30px;
+    width: 100%;
+    outline: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.TExt_a:focus{
+    border: none;
+    outline: none;
+    color: #212123  ;
+    box-shadow: var(--boxShadow2);
+}
+.as{
+    margin: 20px 0px ;
+    width:80%;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: var(--bg1);
+    color: var(--color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: var(--boxShadow3);
+    /* margin-top: 10%; */
+}
+.as:focus{
+    color: #ff6100;
+    box-shadow: var(--boxShadow2);
+}
+
+.sub_bt{
+    background-color: aqua;
+    width: 50%;
+    margin: 10px 0px ;
+ 
+    font-weight: 700;
+    font-size: 18px;
+    background-color: var(--bg1);
+    color: var(--color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: var(--boxShadow3);
+    /* margin-top: 10%; */
+}
+
+.sub_bt:focus{
+    color: #ff6100;
+    box-shadow: var(--boxShadow2);
+}
+.saa{
+    display: flex;
+    
+}
+.icon_sb{
+    margin-left: 10px;
+    color: black;
+    font-size: bold;
+    font-weight: 700;
+
+}

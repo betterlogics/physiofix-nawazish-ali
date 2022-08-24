@@ -88,6 +88,10 @@
   display: block;
   text-align: left;
 }
+.drop_d a :hover{
+  color: #564343!important;
+
+}
 
 .column a:hover {
   background-color: #ddd;

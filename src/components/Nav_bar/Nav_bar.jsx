@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Nav_bar.css";
 import logo from "../Assets/logo.svg";
-import { VscThreeBars } from 'react-icons/vsc';
+import { VscThreeBars } from "react-icons/vsc";
 
 function Nav_bar() {
   return (
@@ -18,7 +18,9 @@ function Nav_bar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className=" nav_ivv"><VscThreeBars className='tex-white nac_btc '></VscThreeBars></span>
+            <span className=" nav_ivv">
+              <VscThreeBars className="tex-white nac_btc "></VscThreeBars>
+            </span>
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             <img src={logo} className="nav_logo" alt="" />
@@ -26,9 +28,9 @@ function Nav_bar() {
               <li className="nav-item">
                 <div class="navbar_1">
                   <div class="drop_d">
-                    <a  className="text-white">
-                    <Link to="/">Home</Link>
-                    
+                    <a className="text-white">
+                      <Link to="/">Home</Link>
+
                       <i class="fa fa-caret-down"></i>
                     </a>
                     <div class="drop_c">
@@ -66,8 +68,8 @@ function Nav_bar() {
               <li className="nav-item">
                 <div class="navbar_1">
                   <div class="drop_d">
-                    <a  className="text-white">
-                    <Link to="/online">Online Services</Link>
+                    <a className="text-white">
+                      <Link to="/online">Online Services</Link>
                       <i class="fa fa-caret-down"></i>
                     </a>
                     <div class="drop_c">
@@ -105,8 +107,8 @@ function Nav_bar() {
               <li className="nav-item">
                 <div class="navbar_1">
                   <div class="drop_d">
-                    <a  className="text-white">
-                    <Link to="/about">About</Link>
+                    <a className="text-white">
+                      <Link to="/about">About</Link>
                       <i class="fa fa-caret-down"></i>
                     </a>
                     <div class="drop_c">
@@ -144,9 +146,9 @@ function Nav_bar() {
               <li className="nav-item">
                 <div class="navbar_1">
                   <div class="drop_d">
-                    <a  className="text-white">
-                    <Link to="/blog">Blog</Link>
-                   
+                    <a className="text-white">
+                      <Link to="/blog">Blog</Link>
+
                       <i class="fa fa-caret-down"></i>
                     </a>
                     <div class="drop_c">
@@ -181,30 +183,38 @@ function Nav_bar() {
                   </div>
                 </div>
               </li>
-              
-          
+
               <li className="nav-item">
                 <div class="navbar_1">
                   <div class="drop_d">
-                    <a  className="text-white">
-                    <Link to="/signup">Sign up</Link>
+                    <a className="text-white">
+                      <Link to="/signup">Sign up</Link>
                       <i class="fa fa-caret-down"></i>
                     </a>
-                  
                   </div>
                 </div>
               </li>
               <li className="nav-item">
                 <div class="navbar_1">
                   <div class="drop_d">
-                    <a  className="text-white">
-                    <Link to="/login">Log in</Link>
+                    <a className="text-white">
+                      <Link to="/login">Log in</Link>
                       <i class="fa fa-caret-down"></i>
                     </a>
-                  
                   </div>
                 </div>
               </li>
+              <li className="nav-item">
+                <div class="navbar_1">
+                  <div class="drop_d">
+                    <a className="text-white">
+                      <Link to="/submit">Submit</Link>
+                      <i class="fa fa-caret-down"></i>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
             </ul>
           </div>
         </div>
