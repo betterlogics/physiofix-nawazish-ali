@@ -72,6 +72,14 @@ line-height: 1rem;
         margin-top: 5px !important;
     }
 
+    .feiled input{
+        border-bottom: 2px solid #000 !important;
+        border-left: 2px solid #000 !important;
+    }
+    .sign__btn{
+        border-bottom: 2px solid #000 !important;
+        border-left: 2px solid #000 !important;
+    }
 
 }
 
@@ -104,6 +112,9 @@ line-height: 1rem;
     .card_pics {
         border: none;
         height: 194.9px;
+    }
+    .image {
+        margin-top: 10px;
     }
 }
 @media (min-width:901px) and (max-width:1100px){
