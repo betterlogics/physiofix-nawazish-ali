@@ -1,7 +1,7 @@
 import React from "react";
 import testbg from "../Assets/testbg.jpg";
 import "./test.css";
-function All_testimonials() {
+function All_testimonials({heading,text}) {
   return (
     <div>
       <div className="Main_bg">
@@ -10,8 +10,8 @@ function All_testimonials() {
             
               <div className="over">
               <div className="col-lg-4 margf">
-                <h3 className="TER_head">TESTIMONIALS</h3>
-                <p className="TER_para">CLINT LOVE</p>
+                <h3 className="TER_head">{heading}</h3>
+                <p className="TER_para">{text}</p>
               </div>
 
             </div>

@@ -214,6 +214,16 @@ function Nav_bar() {
                   </div>
                 </div>
               </li>
+              <li className="nav-item">
+                <div class="navbar_1">
+                  <div class="drop_d">
+                    <a className="text-white">
+                      <Link to="/allblogs">All Blogs</Link>
+                      <i class="fa fa-caret-down"></i>
+                    </a>
+                  </div>
+                </div>
+              </li>
 
             </ul>
           </div>

@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import React from "react";
+import React, { useState } from "react";
 import Header from './components/Header/Header';
 import Nav_bar from './components/Nav_bar/Nav_bar';
 import Signup from './components/Sign_up/Sign_up';
@@ -20,10 +20,13 @@ import Sub_footer from './components/Sub_footer/Sub_footer';
 import Main_online from './components/Main_online/Main_online';
 import Login from './components/Login/Login';
 import Submit from './components/Submit/Submit';
+import AllBlogs from './components/AllBlogs/AllBlogs';
 
 
 
 function App() {
+  const [adminLoggedIn,setAdminLoggedIn ] = useState(false);
+  
   return (
   
     <div className="App">
@@ -36,10 +39,12 @@ function App() {
         <Route exact path='/' element={<Main_home/>}/>
         <Route exact path='/About' element ={<Main_about/>}/>
         <Route exact path='/blog' element ={<Main_test/>}/>
+        <Route exact path='/allblogs' element ={<AllBlogs />}/>
         <Route exact path='/signup' element ={<Sign_up/>}/>
         <Route exact path='/online' element ={<Main_online/>}/>
-        <Route exact path='/login' element ={<Login/>}/>
-        <Route exact path='/submit' element ={<Submit/>}/>
+        <Route exact path='/login' element ={<Login setAdminLoggedIn = {setAdminLoggedIn} />}/>
+        {/* <Route exact path='/submit' element ={<Login />}/> */}
+        { adminLoggedIn == true ? <Route exact path='/submit' element ={<Submit/>}/> : <></>}
         </Routes>
         <Input/>
         <Top_footer/>

@@ -1,0 +1,12 @@
+.AllBlogs{
+    overflow-x: hidden;
+}
+.AllBlogs .blog{
+    background-color: f8fafb;
+}
+.bbta{
+    padding: 10px 0px ;
+}
+.AllBlogs .textt{
+    text-align: justify;
+}
