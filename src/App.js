@@ -43,8 +43,8 @@ function App() {
         <Route exact path='/signup' element ={<Sign_up/>}/>
         <Route exact path='/online' element ={<Main_online/>}/>
         <Route exact path='/login' element ={<Login setAdminLoggedIn = {setAdminLoggedIn} />}/>
-        {/* <Route exact path='/submit' element ={<Login />}/> */}
-        { adminLoggedIn == true ? <Route exact path='/submit' element ={<Submit/>}/> : <></>}
+        <Route exact path='/submit' element ={<Submit />}/>
+        {/* { adminLoggedIn == true ? <Route exact path='/submit' element ={<Submit/>}/> : <></>} */}
         </Routes>
         <Input/>
         <Top_footer/>

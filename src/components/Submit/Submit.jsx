@@ -120,11 +120,18 @@ function Submit() {
                                 <input type="password" placeholder='password' />
                             </div> */}
                            <textarea name="paragraph" id="" cols="30" rows="10" className='TExt_a'  onChange={blogInfotextChanged}></textarea>
-                           <div className="saa">
-                           <input type="file"  id="photo" name="photo" accept="image/*" className='btn  sub_bt'  onChange={blogInfoChanged}/>
-                           <input type="file"  id="video" name="video" accept="video/*" className='btn  sub_bt' onChange={blogInfoChanged} />
-          
-                           </div>
+                         <div className="row justify-content-center">
+                          <div className="col-md-12">
+                          <div className="saa">
+                          <label type="file" for="photo"      class="btn   sub_input sub_bt">Upload image</label>
+                          <input type="file" placeholder='Upload image'  id="photo" name="photo" accept="image/*" className='btn btas'  onChange={blogInfoChanged}/>
+                          <label type="file" for="video"      class="btn   sub_input sub_bt">Upload video</label>
+                          <input type="file"  id="video" name="video" accept="video/*" className='btn btas ' onChange={blogInfoChanged} />
+         
+                          </div>
+                          </div>
+                         </div>
+                        
                            <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6">

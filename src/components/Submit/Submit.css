@@ -48,7 +48,7 @@
 
 .sub_bt{
     background-color: aqua;
-    width: 50%;
+    width: 100%;
     margin: 10px 0px ;
  
     font-weight: 700;
@@ -78,3 +78,18 @@
     font-weight: 700;
 
 }
+.btas{
+    display: none;
+}
+
+
+
+@media only screen and (max-width:600px){
+    .saa{
+        flex-direction: column  ;
+    }
+    .btas{
+        display: none;
+    }
+}
+
