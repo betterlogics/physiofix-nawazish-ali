@@ -126,7 +126,7 @@ function Submit() {
                           <label type="file" for="photo"      class="btn   sub_input sub_bt">Upload image</label>
                           <input type="file" placeholder='Upload image'  id="photo" name="photo" accept="image/*" className='btn btas'  onChange={blogInfoChanged}/>
                           <label type="file" for="video"      class="btn   sub_input sub_bt">Upload video</label>
-                          <input type="file"  id="video" name="video" accept="video/*" className='btn btas ' onChange={blogInfoChanged} />
+                          <input type="file"  id="video" name="video" accept="video/*" className='btn btas   ' onChange={blogInfoChanged} />
          
                           </div>
                           </div>

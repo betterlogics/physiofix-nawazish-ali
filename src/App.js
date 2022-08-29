@@ -21,6 +21,8 @@ import Main_online from './components/Main_online/Main_online';
 import Login from './components/Login/Login';
 import Submit from './components/Submit/Submit';
 import AllBlogs from './components/AllBlogs/AllBlogs';
+import FullBlog from './components/FullBlog/FullBlog';
+import EditBlog from './components/EditBlog/EditBlog';
 
 
 
@@ -33,17 +35,20 @@ function App() {
       <Router>
         <Top_nav/>
         <Nav_bar/>
+        {/* <FullBlog/> */}
+        <EditBlog/>
+
        
        
         <Routes>
-        <Route exact path='/' element={<Main_home/>}/>
+        {/* <Route exact path='/' element={<Main_home/>}/>
         <Route exact path='/About' element ={<Main_about/>}/>
         <Route exact path='/blog' element ={<Main_test/>}/>
         <Route exact path='/allblogs' element ={<AllBlogs />}/>
         <Route exact path='/signup' element ={<Sign_up/>}/>
         <Route exact path='/online' element ={<Main_online/>}/>
         <Route exact path='/login' element ={<Login setAdminLoggedIn = {setAdminLoggedIn} />}/>
-        <Route exact path='/submit' element ={<Submit />}/>
+        <Route exact path='/submit' element ={<Submit />}/> */}
         {/* { adminLoggedIn == true ? <Route exact path='/submit' element ={<Submit/>}/> : <></>} */}
         </Routes>
         <Input/>
